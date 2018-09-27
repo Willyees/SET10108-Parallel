@@ -58,8 +58,7 @@ int main()
         std::default_random_engine e(r());
         std::vector<int> vi;
 		
-
-        for (int i = 0; i < 10000000; ++i) {
+		for (int i = 0; i < 10000000; ++i) {
                 vi.push_back(e());
         }
 
