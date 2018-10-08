@@ -35,6 +35,5 @@ file(GLOB_RECURSE SOURCES "exercise03-2_mandelbrot/*.cpp" "exercise03-2_mandelbr
 find_library(FreeImage FreeImage exercise03-2_mandelbrot/)
 add_executable (mandelbrot ${SOURCES})
 target_link_libraries(mandelbrot ${FreeImage})
-#target_include_directories(mandelbrot ${FreeImage})
-
+target_include_directories(mandelbrot PUBLIC ${FreeImage})
 # TODO: Add tests and install targets if needed.

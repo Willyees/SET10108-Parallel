@@ -6,4 +6,4 @@ cmake_minimum_required (VERSION 3.8)
 project ("lab02")
 
 # Include sub-projects.
-add_subdirectory ("sources")
+add_subdirectory ("sources/")
