@@ -36,4 +36,5 @@ find_library(FreeImage FreeImage exercise03-2_mandelbrot/)
 add_executable (mandelbrot ${SOURCES})
 target_link_libraries(mandelbrot ${FreeImage})
 target_include_directories(mandelbrot PUBLIC ${FreeImage})
+configure_file(${CMAKE_SOURCE_DIR}/sources/exercise03-2_mandelbrot/FreeImage.dll ${CMAKE_CURRENT_BINARY_DIR}/FreeImage.dll COPYONLY)
 # TODO: Add tests and install targets if needed.
