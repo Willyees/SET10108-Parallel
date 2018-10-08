@@ -22,3 +22,7 @@ add_executable(scheduling ${SOURCES})
 
 file(GLOB_RECURSE SOURCES "fractal_omp/*.cpp" "fractal_omp/*.h")
 add_executable(fractal_omp ${SOURCES})
+find_library(FreeImage FreeImage fractal_omp/)
+target_link_libraries(fractal_omp ${FreeImage})
+target_include_directories(fractal_omp PUBLIC ${FreeImage})
+configure_file(${CMAKE_SOURCE_DIR}/sources/fractal_omp/FreeImage.dll ${CMAKE_CURRENT_BINARY_DIR}/FreeImage.dll COPYONLY)
