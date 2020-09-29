@@ -1,0 +1,2 @@
+1)Try using the schedule technique to split up the work for the Mandelbrot fractal. This will allow more control over how work is divided. You need to understand where the likely bottlenecks are in the algorithm in relation to the image produced to work out how best to split Mandelbrot up for OpenMP.
+2)You now have enough information to build a queue to act as a message passing interface. Build one - either using standard C++ threading, OpenMP or both - and show it works using a basic producer-consumer model.

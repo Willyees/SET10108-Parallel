@@ -1,0 +1,3 @@
+1)As always you should be taking timings of your applications.
+2)The Mandelbrot is quite an interesting application to distribute. In particular you will find that our implementation allows some parts to be processed quickly, and other parts slowly. You should try and divide the work so that you can optimise performance.
+3)Try and get an application that works across a number of hosts. Try four machines in the games lab (16 processes in total). Again gather timings. Mandelbrot is another good application here.

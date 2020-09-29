@@ -1,0 +1,5 @@
+1)The atomic version of increment runs significantly faster than the mutex version of increment. Why is this? What does it tell you about atomic int values on standard PC CPUs?
+2)You should now be able to use atomics to perform the Monte Carlo π experiment. This should give you a performance increase over using standard locks. Produce another table (as in Exercise 2 of the Part 1 Exercises of this Unit) and compare the times with the lock and atomic versions.
+3)To show the result from the Mandelbrot experiment, use an image saving library (such as freeimage) to convert your result into an image.
+4)Gather timing information for splitting the Mandelbrot problem. Experiment with different thread configurations and different methods of splitting up the work. Create charts to present your results.
+5)You will probably find that 8192 * 8192 is the largest Mandelbrot image resolution you can create due to working memory limitations. You can however split the task further by generating separate images. Try and create a very high resolution (e.g. 65536 * 65536) image and zoom in to see the smaller details of the fractal.

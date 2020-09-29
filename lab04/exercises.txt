@@ -1,0 +1,5 @@
+1)Try some of the other SIMD instructions and see how they behave.
+2)Calculate some timing information for the normalization application
+3)Try and parallelize the normalization application using multithreading or OpenMP. Compare the time taken against SIMD.
+4)Monte Carlo π works on the principal of the length of a random vector. Can you build a version of Monte Carlo π using SIMD instructions? Can you also parallelize it further using OpenMP or multithreading?
+5)A _m512 type is supported by some processors. Try it on your machine and add new timing information for the addition application.
