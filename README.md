@@ -1,7 +1,7 @@
 # SET10108-Parallel
 Napier University 2018/2019. Lab repository
 
-Collection of laboratory exercises aimed at showing the understanding of concurrency computation. 
+### Collection of laboratory exercises aimed at showing the understanding of concurrency computation. 
 
 Multiple threads (c++ std::thread), mutex, atomic, OpenMP, SIMD, MPI, OpenCL, CUDA were utilized to achieve parallelisation.
 Lab1: 
